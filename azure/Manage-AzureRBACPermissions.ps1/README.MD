@@ -9,7 +9,7 @@ There are four roles which can be assigned to Users based on the recommendations
 - Network Management: Centralized control of networking and firewall policies.
 - Security Operations: Security posture, compliance, and monitoring across all subscriptions.
 
-::: mermaid
+```mermaid
 flowchart TD
     A["Management Group: Landing Zones"] --> B["Subscription Owner"]
     A --> C["Application Owners (DevOps/AppOps)"]
@@ -20,7 +20,7 @@ flowchart TD
     C -->|Manage workloads| F
     D -->|Manage connectivity| G[Connectivity Subscription]
     E -->|Manage security posture| H[All Subscriptions]
-::: 
+```
 
 
 **Comparism Table**
